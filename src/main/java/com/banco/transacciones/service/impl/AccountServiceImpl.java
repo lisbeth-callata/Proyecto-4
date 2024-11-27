@@ -1,7 +1,5 @@
 package com.banco.transacciones.service.impl;
 
-
-
 import com.banco.transacciones.model.Account;
 import com.banco.transacciones.repository.AccountRepository;
 import com.banco.transacciones.service.AccountService;

@@ -18,7 +18,7 @@ public class Account {
     private String id;
     private String numeroCuenta;
     private Double saldo = 0.0;
-    private AccountType tipoCuenta; // Enum AHORROS o CORRIENTE
-    private String clienteId; // ID del cliente propietario de la cuenta
+    private AccountType tipoCuenta;
+    private String clienteId;
 }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration
+        1.2//EN"
+        "https://checkstyle.org/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <module name="TreeWalker">
+        <module name="MethodLength">
+            <property name="max" value="50"/>
+        </module>
+        <module name="MagicNumber"/>
+        <module name="ImportOrder">
+            <property name="grouping" value="byType"/>
+        </module>
+        <module name="Indentation">
+            <property name="basicOffset" value="4"/>
+            <property name="caseIndent" value="4"/>
+        </module>
+    </module>
+</module>
